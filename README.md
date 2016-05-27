@@ -16,32 +16,31 @@ At the top
 
 - First fieldset, with legend ‘Your face’
 
-  + ' input type="file" '[required]
-  + ' An img element with id="preview" '
+  + ` input type="file" `[required]
+  + ` An img element with id="preview" `
 - Second fieldset, with legend ‘Your general details’
 
-  + input type= "text" ... [required]
-  + input type="radio" ... (two of these) [required]
-  + input type="number" ... [required]
-  + input type="date" ...
-  + input type="color" ...
+  + `input type= "text" ...` [required]
+  + `input type="radio" ...` (two of these) [required]
+  + `input type="number" ...` [required]
+  + `input type="date" ...`
+  + `input type="color" ...`
   + select , with 6 option , to handle ‘no selection’ plus 5 different countries 
   
 - Third fieldset, with legend ‘Your indicators’
-
-  + input type="range" min="0" max="100" ...
-  + input type="range" min="0" max="100" ... 
+  + `input type="range" min="0" max="100" ...`
+  + `input type="range" min="0" max="100" ...`
+  
 - Fourth fieldset, with legend ‘Your Contact Information’
-
-  + input type="email" ... [required]
-  + input type="tel" ...
-  + textarea ...
-  + input type="checkbox" ... , three of these are needed for the three types of contact method 
+  + `input type="email" ...` [required]
+  + `input type="tel" ...`
+  + `textarea ...`
+  + `input type="checkbox" ...` , three of these are needed for the three types of contact method 
 
 - At the end (not in any fieldset):
+  + `input type="submit"`
 
-  + input type="submit"
-  + Important notes
+## Important notes
 
 Each of the four fieldset must have a legend, as indicated above.
 ** [required] ** shown in the list above means that the input must be entered by the user before the form can be successfully submitted, so you must indicate this by adding the appropriate text in the HTML i.e. required
