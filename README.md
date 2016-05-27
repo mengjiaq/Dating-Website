@@ -16,8 +16,8 @@ At the top
 
 - First fieldset, with legend ‘Your face’
 
-  +input type="file" [required]
-  +An img element with id="preview"
+  + ' input type="file" '[required]
+  + ' An img element with id="preview" '
 - Second fieldset, with legend ‘Your general details’
 
   + input type= "text" ... [required]
