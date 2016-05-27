@@ -11,38 +11,40 @@ Here is a summary of the elements needed inside the web page.
 
 At the top	
 
-An appropriate large heading e.g. h1 or h2 or h3
-The HTML elements to be contained within the form are listed by the company as follows.
+  An appropriate large heading e.g. h1 or h2 or h3
+  The HTML elements to be contained within the form are listed by the company as follows.
 
-First fieldset, with legend ‘Your face’
+-First fieldset, with legend ‘Your face’
 
-input type="file" [required]
-An img element with id="preview"
-Second fieldset, with legend ‘Your general details’
+  +input type="file" [required]
+  +An img element with id="preview"
+-Second fieldset, with legend ‘Your general details’
 
-input type= "text" ... [required]
-input type="radio" ... (two of these) [required]
-input type="number" ... [required]
-input type="date" ...
-input type="color" ...
-select , with 6 option , to handle ‘no selection’ plus 5 different countries 
-Third fieldset, with legend ‘Your indicators’
+  +input type= "text" ... [required]
+  +input type="radio" ... (two of these) [required]
+  +input type="number" ... [required]
+  +input type="date" ...
+  +input type="color" ...
+  +select , with 6 option , to handle ‘no selection’ plus 5 different countries 
+  
+-Third fieldset, with legend ‘Your indicators’
 
-input type="range" min="0" max="100" ...
-input type="range" min="0" max="100" ... 
-Fourth fieldset, with legend ‘Your Contact Information’
+  +input type="range" min="0" max="100" ...
+  +input type="range" min="0" max="100" ... 
+-Fourth fieldset, with legend ‘Your Contact Information’
 
-input type="email" ... [required]
-input type="tel" ...
-textarea ...
-input type="checkbox" ... , three of these are needed for the three types of contact method 
-At the end (not in any fieldset):
+  +input type="email" ... [required]
+  +input type="tel" ...
+  +textarea ...
+  +input type="checkbox" ... , three of these are needed for the three types of contact method 
 
-input type="submit"
-Important notes
+-At the end (not in any fieldset):
+
+  +input type="submit"
+  +Important notes
 
 Each of the four fieldset must have a legend, as indicated above.
-[required] shown in the list above means that the input must be entered by the user before the form can be successfully submitted, so you must indicate this by adding the appropriate text in the HTML i.e. required
+**[required]** shown in the list above means that the input must be entered by the user before the form can be successfully submitted, so you must indicate this by adding the appropriate text in the HTML i.e. required
 For everything in the form except the submit button, there must be an appropriate label which has an appropriate for e.g. 
 
 <label for="avatar">Your image:</label>
